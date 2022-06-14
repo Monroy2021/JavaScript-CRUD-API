@@ -1,0 +1,30 @@
+body {
+
+    width: 700px;
+    margin: 0 auto;
+    background-color: #f7f4f0;
+    padding: 0 30px 20px 10px;
+    border: 5px solid rgb(129, 120, 156);
+    margin-block: 2%;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #25394d;
+    text-shadow: 3px 3px 1px rgb(240, 229, 229);
+}
+
+.button1 {
+    background-color: #e7dede;
+    font-size: 15px;
+}
+
+form {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 0%;
+    background-color: rgb(73, 52, 63);
+}

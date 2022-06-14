@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
     <title>CRUD API REST AXIOS</title>
 </head>
 
@@ -16,9 +17,11 @@
             <form class="crud-form">
                 <input type="text" name="nombre" placeholder="nombre" required>
                 <br>
+                <br>
                 <input type="text" name="constelacion" placeholder="constelación" required>
                 <br>
-                <input type="submit" value="Enviar">
+                <br>
+                <input class="button1" type="submit" value="Enviar">
                 <input type="hidden" name="id">
             </form>
         </article>
@@ -49,7 +52,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script>
-       
+
         const d = document,
             $table = d.querySelector(".crud-table"),
             $form = d.querySelector(".crud-form"),
