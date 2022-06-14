@@ -59,7 +59,7 @@
 
             const getAll = async () => {
                 try {
-                    let res = await axios.get("http://localhost:5555/santos"),
+                    let res = await axios.get("http://localhost:3000/santos"),
                         json = await res.data;
 
                     console.log(json);
@@ -102,7 +102,7 @@
                                     constelacion: e.target.constelacion.value
                                 })
                             },
-                                res = await axios("http://localhost:5555/santos", options),
+                                res = await axios("http://localhost:3000/santos", options),
                                 json = await res.data;
 
                             location.reload();
@@ -123,7 +123,7 @@
                                     constelacion: e.target.constelacion.value
                                 })
                             },
-                                res = await axios(`http://localhost:5555/santos/${e.target.id.value}`, options),
+                                res = await axios(`http://localhost:3000/santos/${e.target.id.value}`, options),
                                 json = await res.data;
 
                             location.reload();
@@ -155,7 +155,7 @@
                                     "Content-type": "application/json; charset=utf-8"
                                 }
                             },
-                                res = await axios(`http://localhost:5555/santos/${e.target.dataset.id}`, options),
+                                res = await axios(`http://localhost:3000/santos/${e.target.dataset.id}`, options),
                                 json = await res.data;
 
                             location.reload();
