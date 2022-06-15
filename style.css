@@ -2,9 +2,9 @@ body {
 
     width: 700px;
     margin: 0 auto;
-    background-color: #f7f4f0;
+    background-image: url('./img/fondo.png');
     padding: 0 30px 20px 10px;
-    border: 5px solid rgb(129, 120, 156);
+    border: 5px solid rgb(7, 3, 17);
     margin-block: 2%;
 
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 .button1 {
-    background-color: #e7dede;
+    background-color: #0ee0d6;
     font-size: 15px;
 }
 
@@ -26,5 +26,9 @@ form {
     padding: 10px;
     border-radius: 10px;
     margin-left: 0%;
-    background-color: rgb(73, 52, 63);
+    background-color: #87CEEB;
+}
+
+.fonfo1 {
+    background-color: #bdc4bf;
 }
