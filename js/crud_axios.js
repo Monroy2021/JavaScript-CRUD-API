@@ -5,7 +5,7 @@ import {
     $title,
     $template,
     $fragment,
-} from "./variables_dom.js";
+} from "./variables";
 
 /**
  * Funcion para traer y listar la data
